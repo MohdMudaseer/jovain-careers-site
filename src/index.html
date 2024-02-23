@@ -27,7 +27,7 @@
     <h1 >About Jovian</h1>
     <div id="main">
       <div class="description">
-        <p style="margin: 0;">
+        <p>
           At Jovian, we're on a mission to build the world's most highly reputed
           technical university, and we're building it completely online. We offer
           several beginner friendly courses that are taken by 300,000+ registered
@@ -49,11 +49,37 @@
         </p>
       </div>
       <div class="image"> 
-        <img id="team-images" src="career.jpg" alt="career" height="200px">
+        <img id="team-image" src="career.jpg" alt="career">
       </div>
     </div>
     <h2>Job opportunities</h2>
-    <div id="jobs">
+    <div id="jobs-list">
+      <div class="job">
+          <div class="job-title">Frontend Developer</div>
+          <div class="job-detail">Bengaluru, India</div>
+          <div class="job-detail">₹ 12,00,000</div>
+          <div class="job-detail">Posted Mar 3, 2023</div>
+      </div >
+      <div class="job">
+          <div class="job-title">Full Stack Developer</div>
+          <div class="job-detail">New Delhi, India</div>
+          <div class="job-detail">₹ 15,00,000</div>
+          <div class="job-detail">Posted Feb 1, 2023</div>
+      </div>
+      <div class="job">
+          <div class="job-title">Data Scientist</div>
+          <div class="job-detail">San Francisco, USA</div>
+          <div class="job-detail">$175,000</div>
+          <div class="job-detail">Posted Dec 22, 2022</div>
+      </div>
+      <div class="job">
+          <div class="job-title">ML Engineer</div>
+          <div class="job-detail">Remote</div>
+          <div class="job-detail">$80,000</div>
+          <div class="job-detail">Posted Sep 19, 2022</div>
+      </div>
+  </div>
+  <div id="jobs">
       <table  id="jobs-table">
         <tr class="jobs-header-row">
           <th rowspan="2">Job Title</th>
@@ -128,7 +154,7 @@
             <option value="Full Stack Developer">Full Stack Developer</option>
             <option value="Data Scientist">Data Scientist</option>
             <option value="ML Engineer">ML Engineer</option>
-        </select>
+          </select>
         </div>
         <div class="form-group">
           <label for="resume">Upload Resume</label><br>
@@ -137,22 +163,19 @@
         <div class="form-group">
           <label for="coverletter">Cover Letter</label><br>
           <textarea id="coverletter" name="coverletter" rows="5" required placeholder="Explain what makes you suitable for the job.."></textarea>
-      </div>
-
-      <div class="form-group">
+        </div>
+        <div class="form-group">
           <label for="terms">
               <input type="checkbox" id="terms" name="terms" required>
               I agree to the terms and conditions
           </label>
-      </div>
-      <div class="form-group">
+        </div>
+        <div class="form-group">
         <input type="submit" value="Submit">
-    </div>
-</form>
+        </div>
       </form>
-      </div>
-      
     </div>
+      
     <div id="footer"> <ul id="footer-links">
       <li>
         <a href="https://jovian.com/learn" target="_blank">
